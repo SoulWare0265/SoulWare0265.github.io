@@ -25,9 +25,13 @@
 
     <!-- HERO SECTION -->
     <header id="about" class="max-w-5xl mx-auto px-6 py-20 flex flex-col items-center text-center space-y-6">
-        <div class="w-24 h-24 rounded-full bg-emerald-500/20 flex items-center justify-center border border-emerald-400 text-4xl text-emerald-400">
-            DG
+        <!-- FOTO DE PERFIL: Reemplaza "tu_foto.png" por el nombre real de tu archivo de foto -->
+
+        <div class="w-24 h-24 rounded-full overflow-hidden border border-emerald-400 shadow-lg shadow-emerald-500/10 flex items-center justify-center bg-slate-800">
+            <img src="foto.jpeg" alt="Diego Giraldo" class="w-full h-full object-cover onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"">
+            <span class="text-4xl font-bold text-emerald-400">DG</span>
         </div>
+        
         <h1 class="text-4xl md:text-5xl font-black tracking-tight">
             Hola, soy <span class="text-emerald-400">Diego Giraldo</span> 👋
         </h1>
@@ -88,11 +92,11 @@
                             </li>
                         </ul>
                     </div>
+
                     <!-- Visualización Destacada -->
                     <div class="mb-8">
                         <h4 class="font-semibold text-slate-200 mb-4">📊 Comportamiento del Embudo (Funnels)</h4>
                         <div class="bg-slate-950 p-2 rounded-xl border border-slate-800 flex justify-center">
-                            <!-- Cargamos la imagen generada en Jupyter -->
                             <img src="funnel_rappiplus.png" alt="Embudo de conversión RappiPlus" class="rounded-lg max-w-full h-auto border border-slate-800">
                         </div>
                     </div>
@@ -111,7 +115,6 @@
                             </div>
                         </div>
                     </div>
-                    
 
                     <!-- Botón al Repositorio -->
                     <div class="flex justify-end pt-4 border-t border-slate-800">
@@ -121,7 +124,6 @@
                     </div>
                 </article>
 
-                
                 <!-- PROYECTO 2: CONNECTATEL -->
                 <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 hover:border-slate-700 transition mt-12">
                     <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
@@ -174,6 +176,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Visualización de Distribuciones Reales -->
                     <div class="mb-8">
                         <h4 class="font-semibold text-slate-200 mb-4">📊 Visualización de Distribuciones y Patrones de Consumo</h4>
@@ -217,7 +220,7 @@
                         </a>
                     </div>
                 </article>
-                <!-- NOTA: Aquí podrás duplicar esta estructura ADB cuando se agregue -->
+
                 <!-- PROYECTO 3: ANÁLISIS DE MOVILIDAD Y ECONOMÍA URBANA -->
                 <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 hover:border-slate-700 transition mt-12">
                     <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
@@ -256,7 +259,7 @@
                         </div>
                     </div>
 
-                    <!-- Visualización de Distribuciones (Espacio para tus gráficos) -->
+                    <!-- Visualización de Distribuciones -->
                     <div class="mb-8">
                         <h4 class="font-semibold text-slate-200 mb-4">📊 Comportamiento de las Variables (Distribuciones y Outliers)</h4>
                         <div class="grid md:grid-cols-2 gap-6">
@@ -264,7 +267,6 @@
                             <!-- Histograma -->
                             <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
                                 <img src="hist_city_gdp_capita.png" alt="Distribución del PIB per cápita" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
-                                <div class="w-full h-48 bg-slate-900 rounded border border-slate-800 flex items-center justify-center text-xs text-slate-500 mb-3"></div>
                                 <p class="text-xs text-slate-400 text-center">
                                     <strong class="text-blue-400">Histograma:</strong> Revela una distribución con sesgo positivo en ambas variables. La mayoría de las ciudades se agrupan en un rango de ingresos medios (8k - 15k USD) y congestión moderada.
                                 </p>
@@ -273,7 +275,6 @@
                             <!-- Boxplot -->
                             <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
                                 <img src="boxplot_jamsDelay.png" alt="Boxplot de Jams Delay" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
-                                <div class="w-full h-48 bg-slate-900 rounded border border-slate-800 flex items-center justify-center text-xs text-slate-500 mb-3"></div>
                                 <p class="text-xs text-slate-400 text-center">
                                     <strong class="text-rose-400">Boxplot de jams_delay:</strong> Muestra una caja compacta y una mediana baja cercana al origen. Confirma que la mayoría de las urbes tienen tráfico similar, pero destaca a CDMX como un outlier aislado.
                                 </p>
