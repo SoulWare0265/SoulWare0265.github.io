@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Giraldo | Junior Data Analyst & Ingeniero de Sistemas</title>
+    <!-- Cargamos Tailwind CSS para un diseño moderno y responsive -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Iconos de FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+
+    <!-- NAV BAR -->
+    <nav class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold text-emerald-400">DG.dev</span>
+            <div class="space-x-6">
+                <a href="#about" class="hover:text-emerald-400 transition">Sobre mí</a>
+                <a href="#projects" class="hover:text-emerald-400 transition">Proyectos</a>
+                <a href="#contact" class="hover:text-emerald-400 transition">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="about" class="max-w-5xl mx-auto px-6 py-20 flex flex-col items-center text-center space-y-6">
+        <div class="w-24 h-24 rounded-full bg-emerald-500/20 flex items-center justify-center border border-emerald-400 text-4xl text-emerald-400">
+            DG
+        </div>
+        <h1 class="text-4xl md:text-5xl font-black tracking-tight">
+            Hola, soy <span class="text-emerald-400">Diego Giraldo</span> 👋
+        </h1>
+        <p class="text-lg md:text-xl text-slate-400 max-w-2xl leading-relaxed">
+            Ingeniero de Sistemas en progreso por la Universidad ECCI. Me apasiona resolver problemas complejos de negocio, mitigar pérdidas y optimizar flujos operativos mediante el poder de los datos y el desarrollo de software.
+        </p>
+        <div class="p-4 bg-slate-800/50 border border-slate-700 rounded-xl max-w-2xl text-sm md:text-base">
+            🎯 <strong class="text-emerald-300">Mi mayor reto actual:</strong> Dominar por completo el mundo de los datos, transformándolos en decisiones estratégicas y conectando la analítica técnica con la optimización de procesos y el desarrollo tecnológico.
+        </div>
+        <div class="flex flex-wrap justify-center gap-3 pt-4">
+            <span class="px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300"><i class="fa-brands fa-python text-emerald-400 mr-1"></i> Python</span>
+            <span class="px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300"><i class="fa-solid fa-database text-emerald-400 mr-1"></i> SQL</span>
+            <span class="px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300"><i class="fa-solid fa-chart-simple text-emerald-400 mr-1"></i> Power BI</span>
+            <span class="px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300"><i class="fa-solid fa-chart-pie text-emerald-400 mr-1"></i> Tableau</span>
+            <span class="px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300"><i class="fa-brands fa-unity text-emerald-400 mr-1"></i> Unity & C#</span>
+        </div>
+    </header>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="bg-slate-950 py-20 border-t border-slate-850">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 border-b border-slate-800 pb-4">📂 Proyectos Destacados</h2>
+            
+            <div class="space-y-16">
+                <!-- PROYECTO 1: RAPPIPLUS -->
+                <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 hover:border-slate-700 transition">
+                    <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+                        <h3 class="text-2xl font-bold text-emerald-400">📊 Auditoría de Suscripciones y Retención de Usuarios (RappiPlus)</h3>
+                        <span class="text-xs font-mono px-3 py-1 bg-emerald-500/10 text-emerald-400 rounded-full border border-emerald-500/20">SQL • Python • Test A/B</span>
+                    </div>
+
+                    <!-- Grid de Problema y Objetivo -->
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-slate-950 p-4 rounded-xl border border-slate-850">
+                            <h4 class="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-2">⚡ El Problema</h4>
+                            <p class="text-sm text-slate-300">El programa de suscripciones de RappiPlus presentaba inconsistencias financieras y se sospechaban fugas de capital no identificadas en el flujo transaccional.</p>
+                        </div>
+                        <div class="bg-slate-950 p-4 rounded-xl border border-slate-850">
+                            <h4 class="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-2">🎯 El Objetivo</h4>
+                            <p class="text-sm text-slate-300">Auditar la salud financiera, mapear el embudo de conversión y localizar con precisión matemática dónde se generaban las pérdidas monetarias.</p>
+                        </div>
+                    </div>
+
+                    <!-- Hallazgos Destacados (Con Números Reales) -->
+                    <div class="mb-8">
+                        <h4 class="font-semibold text-slate-200 mb-4">💡 Hallazgos Clave del Análisis</h4>
+                        <ul class="grid md:grid-cols-3 gap-4 text-sm">
+                            <li class="bg-slate-950 p-4 rounded-xl border border-rose-500/20">
+                                <span class="text-2xl font-bold text-rose-400 block mb-1">Fuga de 22.05%</span>
+                                <span class="text-slate-400">Identificada al pasar del carrito (7,439 usuarios) a la pasarela de pago (5,799 usuarios).</span>
+                            </li>
+                            <li class="bg-slate-950 p-4 rounded-xl border border-yellow-500/20">
+                                <span class="text-2xl font-bold text-yellow-400 block mb-1">Conversión Total: 57.72%</span>
+                                <span class="text-slate-400">De los 7,796 usuarios iniciales, solo 4,500 completaron la compra final de la suscripción.</span>
+                            </li>
+                            <li class="bg-slate-950 p-4 rounded-xl border border-emerald-500/20">
+                                <span class="text-2xl font-bold text-emerald-400 block mb-1">p-value: 0.416</span>
+                                <span class="text-slate-400">El Test A/B de la nueva interfaz de checkout no arrojó diferencias estadísticamente significativas (alfa = 0.05).</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Visualización Destacada -->
+                    <div class="mb-8">
+                        <h4 class="font-semibold text-slate-200 mb-4">📊 Comportamiento del Embudo (Funnels)</h4>
+                        <div class="bg-slate-950 p-2 rounded-xl border border-slate-800 flex justify-center">
+                            <!-- Cargamos la imagen generada en Jupyter -->
+                            <img src="funnel_rappiplus.png" alt="Embudo de conversión RappiPlus" class="rounded-lg max-w-full h-auto border border-slate-800">
+                        </div>
+                    </div>
+
+                    <!-- Recomendaciones de Negocio -->
+                    <div class="mb-8">
+                        <h4 class="font-semibold text-slate-200 mb-4">🎯 Recomendaciones de Negocio Basadas en Datos</h4>
+                        <div class="space-y-3 text-sm text-slate-300">
+                            <div class="flex items-start gap-3">
+                                <span class="text-rose-400 font-bold">🚫</span>
+                                <p><strong class="text-slate-100">Descartar despliegue global de interfaz:</strong> Dado que p-value > alfa, la diferencia observada del 0.6% no justifica el gasto técnico. Es mejor iterar el diseño o buscar fricciones en pasarela.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <span class="text-emerald-400 font-bold">📢</span>
+                                <p><strong class="text-slate-100">Estrategia de retención en cohorte crítico:</strong> Lanzar notificaciones push dirigidas 3 días antes del cobro de renovación del segundo mes para salvar el 15% de usuarios que abandonan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Botón al Repositorio -->
+                    <div class="flex justify-end pt-4 border-t border-slate-800">
+                        <a href="https://github.com/SoulWare0265/rappiplus_analysis" target="_blank" class="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-semibold rounded-lg text-sm transition inline-flex items-center gap-2">
+                            <i class="fa-brands fa-github"></i> Ver Código Técnico & Notebook
+                        </a>
+                    </div>
+                </article>
+
+                
+                <!-- PROYECTO 2: CONNECTATEL -->
+                <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 hover:border-slate-700 transition mt-12">
+                    <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+                        <h3 class="text-2xl font-bold text-emerald-400">📞 Comportamiento de Clientes y Optimización de Planes (ConnectaTel)</h3>
+                        <span class="text-xs font-mono px-3 py-1 bg-emerald-500/10 text-emerald-400 rounded-full border border-emerald-500/20">Data Cleaning • Segmentación • SQL & Python</span>
+                    </div>
+
+                    <!-- Grid de Problema y Calidad de Datos -->
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-slate-950 p-4 rounded-xl border border-slate-850">
+                            <h4 class="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-2">⚡ El Problema de Negocio</h4>
+                            <p class="text-sm text-slate-300">ConnectaTel requería responder preguntas clave sobre el uso de llamadas, el comportamiento por edades y detectar valores atípicos para optimizar su portafolio de tarifas y mejorar la satisfacción de sus clientes.</p>
+                        </div>
+                        <div class="bg-slate-950 p-4 rounded-xl border border-slate-850">
+                            <h4 class="text-sm font-semibold uppercase tracking-wider text-rose-400/80 mb-2">⚠️ Calidad y Limpieza de Datos</h4>
+                            <p class="text-sm text-slate-300">Se limpió entre un 10% y 15% de datos afectados por sentinelas (<code class="text-emerald-400">-999, 999, ?</code>). Críticamente, <strong class="text-emerald-300">no se imputó churn_date</strong> en los valores nulos, ya que representan de forma legítima a los usuarios que continúan activos.</p>
+                        </div>
+                    </div>
+
+                    <!-- Resultados del Análisis -->
+                    <div class="mb-8">
+                        <h4 class="font-semibold text-slate-200 mb-4">🔍 Segmentación y Respuestas Clave</h4>
+                        <div class="grid md:grid-cols-3 gap-4 text-sm">
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+                                <h5 class="font-bold text-emerald-400 mb-1">👥 Dominio del Segmento Adulto</h5>
+                                <p class="text-slate-400">El segmento de Adultos predomina por su estabilidad económica y mantiene el uso más constante del servicio telefónico.</p>
+                            </div>
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+                                <h5 class="font-bold text-emerald-400 mb-1">📊 Motor de Uso Medio</h5>
+                                <p class="text-slate-400">La base está sostenida por más de 2,500 usuarios de "Uso Medio". Son la base financiera más importante para el negocio.</p>
+                            </div>
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+                                <h5 class="font-bold text-emerald-400 mb-1">🚨 Outliers Identificados</h5>
+                                <p class="text-slate-400">Llamadas atípicas de hasta 155 minutos. No son fraude, sino clientes de alta fidelidad o uso comercial ideales para planes ilimitados.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recomendaciones de Negocio -->
+                    <div class="mb-8">
+                        <h4 class="font-semibold text-slate-200 mb-4">🎯 Recomendaciones de Negocio Basadas en Datos</h4>
+                        <div class="space-y-3 text-sm text-slate-300">
+                            <div class="flex items-start gap-3">
+                                <span class="text-emerald-400 font-bold">💎</span>
+                                <p><strong class="text-slate-100">Plan "Voz Total" para Adultos:</strong> Priorizar planes con minutos ilimitados para el segmento de Adultos, que prefiere de manera abrumadora llamar antes que textear.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <span class="text-emerald-400 font-bold">🚀</span>
+                                <p><strong class="text-slate-100">Upgrade Automatizado:</strong> Ofrecer proactivamente el plan Premium a los usuarios categorizados en "Alto Uso" y aquellos que sobrepasan constantemente los 60 minutos de llamada.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Visualización de Distribuciones Reales -->
+                    <div class="mb-8">
+                        <h4 class="font-semibold text-slate-200 mb-4">📊 Visualización de Distribuciones y Patrones de Consumo</h4>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            
+                            <!-- Bloque 1: El Sesgo en Minutos -->
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
+                                <img src="hist_calls_minutes.png" alt="Distribución de Minutos Utilizados" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
+                                <p class="text-xs text-slate-400 text-center">
+                                    <strong class="text-rose-400">Distribución Sesgada a la Derecha:</strong> El consumo de minutos muestra un comportamiento asimétrico muy marcado. Mientras que la masa de usuarios se concentra por debajo de los 40 minutos, existe una cola de usuarios atípicos que se extiende hasta los <strong class="text-slate-200">155 minutos</strong>.
+                                </p>
+                            </div>
+
+                            <!-- Bloque 2: Las Edades Neutrales -->
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
+                                <img src="hist_age.png" alt="Distribución de Edades por Plan" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
+                                <p class="text-xs text-slate-400 text-center">
+                                    <strong class="text-blue-400">Distribución Uniforme / Neutral:</strong> La edad de los usuarios mantiene un comportamiento altamente simétrico y estable entre los 18 y los 80 años para ambos planes, evidenciando un mercado objetivo demográficamente muy balanceado.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- Fila secundaria para Llamadas y Mensajes -->
+                        <div class="grid md:grid-cols-2 gap-6 mt-6">
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
+                                <img src="hist_cant_calls.png" alt="Cantidad de Llamadas" class="rounded-lg max-w-full h-auto border border-slate-800 mb-2">
+                                <span class="text-xs text-slate-400 text-center">Distribución de cantidad de llamadas (Comportamiento centrado entre 2 y 6 llamadas).</span>
+                            </div>
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
+                                <img src="hist_cant_mensages.png" alt="Cantidad de Mensajes" class="rounded-lg max-w-full h-auto border border-slate-800 mb-2">
+                                <span class="text-xs text-slate-400 text-center">Distribución de cantidad de mensajes (Comportamiento centrado entre 2 y 8 mensajes).</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Botón al Repositorio -->
+                    <div class="flex justify-end pt-4 border-t border-slate-800">
+                        <a href="https://github.com/SoulWare0265/telecom-analysis" target="_blank" class="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-semibold rounded-lg text-sm transition inline-flex items-center gap-2">
+                            <i class="fa-brands fa-github"></i> Ver Código Técnico & Notebook
+                        </a>
+                    </div>
+                </article>
+                <!-- NOTA: Aquí podrás duplicar esta estructura ADB cuando se agregue -->
+                <!-- PROYECTO 3: ANÁLISIS DE MOVILIDAD Y ECONOMÍA URBANA -->
+                <article class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 hover:border-slate-700 transition mt-12">
+                    <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+                        <h3 class="text-2xl font-bold text-emerald-400">📊 Movilidad y Productividad: Decisiones de Inversión Urbana</h3>
+                        <span class="text-xs font-mono px-3 py-1 bg-emerald-500/10 text-emerald-400 rounded-full border border-emerald-500/20">Data Integration • Python (Pandas) • EDA • Estadísticas</span>
+                    </div>
+
+                    <!-- Grid de Problema y Metodología -->
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-slate-950 p-4 rounded-xl border border-slate-850">
+                            <h4 class="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-2">⚡ El Problema de Negocio</h4>
+                            <p class="text-sm text-slate-300">Un banco de desarrollo busca identificar en qué ciudades de Latinoamérica invertir en infraestructura de transporte para maximizar el bienestar. Para ello, se cruzaron datos reales de tráfico (TomTom Traffic Index 2024) y economía (OECD Cities: PIB per cápita, desempleo y población).</p>
+                        </div>
+                        <div class="bg-slate-950 p-4 rounded-xl border border-slate-850">
+                            <h4 class="text-sm font-semibold uppercase tracking-wider text-emerald-400 mb-2">🐍 Integración y Calidad de Datos</h4>
+                            <p class="text-sm text-slate-300">El procesamiento de datos se realizó <strong class="text-emerald-300">completamente en Python</strong>. Utilizando la librería Pandas, se llevó a cabo un <code class="text-emerald-400">inner join</code> preciso para unificar las métricas de movilidad con los indicadores macroeconómicos de la OECD, asegurando la consistencia de las ciudades analizadas.</p>
+                        </div>
+                    </div>
+
+                    <!-- Respuestas a Preguntas del Negocio -->
+                    <div class="mb-8">
+                        <h4 class="font-semibold text-slate-200 mb-4">🔍 Hallazgos Estadísticos del Análisis</h4>
+                        <div class="grid md:grid-cols-3 gap-4 text-sm">
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+                                <h5 class="font-bold text-emerald-400 mb-1">❌ Sin Correlación Directa</h5>
+                                <p class="text-slate-400">Los datos de 2024 demuestran que <strong>no existe una correlación lineal</strong> entre la productividad económica (PIB per cápita) y la congestión vehicular. Una economía fuerte no garantiza una movilidad fluida.</p>
+                            </div>
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+                                <h5 class="font-bold text-emerald-400 mb-1">🇲🇽 El Caso Crítico (CDMX)</h5>
+                                <p class="text-slate-400">Ciudad de México opera fuera de los parámetros del dataset. Su retraso en tráfico cercano a los <strong>3,000 minutos</strong> representa una anomalía extrema (outlier) respecto a su PIB.</p>
+                            </div>
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+                                <h5 class="font-bold text-emerald-400 mb-1">🇺🇾 Eficiencia Referente (Montevideo)</h5>
+                                <p class="text-slate-400">Montevideo y Brasilia se consolidan como líderes en PIB per cápita dentro del dataset, manteniendo niveles de retraso de tráfico notablemente bajos y controlados.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visualización de Distribuciones (Espacio para tus gráficos) -->
+                    <div class="mb-8">
+                        <h4 class="font-semibold text-slate-200 mb-4">📊 Comportamiento de las Variables (Distribuciones y Outliers)</h4>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            
+                            <!-- Histograma -->
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
+                                <img src="hist_city_gdp_capita.png" alt="Distribución del PIB per cápita" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
+                                <div class="w-full h-48 bg-slate-900 rounded border border-slate-800 flex items-center justify-center text-xs text-slate-500 mb-3">[ Espacio para Histograma de Distribución ]</div>
+                                <p class="text-xs text-slate-400 text-center">
+                                    <strong class="text-blue-400">Histograma:</strong> Revela una distribución con sesgo positivo en ambas variables. La mayoría de las ciudades se agrupan en un rango de ingresos medios (8k - 15k USD) y congestión moderada.
+                                </p>
+                            </div>
+
+                            <!-- Boxplot -->
+                            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
+                                <img src="boxplot_jamsDelay.png" alt="Boxplot de Jams Delay" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
+                                <div class="w-full h-48 bg-slate-900 rounded border border-slate-800 flex items-center justify-center text-xs text-slate-500 mb-3">[ Espacio para Boxplot de jams_delay ]</div>
+                                <p class="text-xs text-slate-400 text-center">
+                                    <strong class="text-rose-400">Boxplot de jams_delay:</strong> Muestra una caja compacta y una mediana baja cercana al origen. Confirma que la mayoría de las urbes tienen tráfico similar, pero destaca a CDMX como un outlier aislado.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Recomendaciones de Negocio -->
+                    <div class="mb-8">
+                        <h4 class="font-semibold text-slate-200 mb-4">🎯 Recomendaciones para el Banco de Inversión</h4>
+                        <div class="space-y-3 text-sm text-slate-300">
+                            <div class="flex items-start gap-3">
+                                <span class="text-emerald-400 font-bold">🚦</span>
+                                <p><strong class="text-slate-100">La infraestructura define el flujo, no la riqueza:</strong> Dado que el éxito económico no garantiza una buena movilidad, la toma de decisiones debe priorizar el análisis de la infraestructura de transporte público y planeación urbana local antes que el volumen del PIB.</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <span class="text-emerald-400 font-bold">🔍</span>
+                                <p><strong class="text-slate-100">Variables adicionales requeridas:</strong> Para afinar el modelo de inversión, se recomienda expandir el análisis hacia variables ausentes en este dataset, tales como la densidad poblacional de las urbes, la cobertura del transporte masivo y los históricos de inversión local.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Botón al Repositorio -->
+                    <div class="flex justify-end pt-4 border-t border-slate-800">
+                        <a href="https://github.com/SoulWare0265/urban_mobility_analysis" target="_blank" class="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-semibold rounded-lg text-sm transition inline-flex items-center gap-2">
+                            <i class="fa-brands fa-github"></i> Ver Notebook en Python
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <footer id="contact" class="bg-slate-900 border-t border-slate-800 py-16 text-center text-slate-400 text-sm">
+        <div class="max-w-5xl mx-auto px-6 space-y-6">
+            <h3 class="text-xl font-bold text-slate-100">¡Conectemos! 📬</h3>
+            <div class="flex justify-center gap-6 text-2xl py-2">
+                <a href="mailto:giraldoflorezd@gmail.com" class="hover:text-emerald-400 transition"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/diegogiraldo-data/" target="_blank" class="hover:text-emerald-400 transition"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>© 2026 Diego Giraldo. Desarrollado con Tailwind CSS y alojado en GitHub Pages.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
