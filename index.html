@@ -27,7 +27,7 @@
     <header id="about" class="max-w-5xl mx-auto px-6 py-20 flex flex-col items-center text-center space-y-6">
         <!-- FOTO DE PERFIL: Reemplaza "tu_foto.png" por el nombre real de tu archivo de foto -->
         <div class="w-28 h-28 rounded-full overflow-hidden border-2 border-emerald-400 shadow-lg shadow-emerald-500/20 bg-slate-800">
-            <img src="foto.jpeg" alt="Diego Giraldo" class="w-full h-full object-cover">
+            <img src="./assets/foto.jpeg" alt="Diego Giraldo" class="w-full h-full object-cover">
         </div>
         
         <h1 class="text-4xl md:text-5xl font-black tracking-tight">
@@ -95,7 +95,7 @@
                     <div class="mb-8">
                         <h4 class="font-semibold text-slate-200 mb-4">📊 Comportamiento del Embudo (Funnels)</h4>
                         <div class="bg-slate-950 p-2 rounded-xl border border-slate-800 flex justify-center">
-                            <img src="funnel_rappiplus.png" alt="Embudo de conversión RappiPlus" class="rounded-lg max-w-full h-auto border border-slate-800">
+                            <img src="./assets/funnel_rappiplus.png" alt="Embudo de conversión RappiPlus" class="rounded-lg max-w-full h-auto border border-slate-800">
                         </div>
                     </div>
 
@@ -182,7 +182,7 @@
                             
                             <!-- Bloque 1: El Sesgo en Minutos -->
                             <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
-                                <img src="hist_calls_minutes.png" alt="Distribución de Minutos Utilizados" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
+                                <img src="./assets/hist_calls_minutes.png" alt="Distribución de Minutos Utilizados" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
                                 <p class="text-xs text-slate-400 text-center">
                                     <strong class="text-rose-400">Distribución Sesgada a la Derecha:</strong> El consumo de minutos muestra un comportamiento asimétrico muy marcado. Mientras que la masa de usuarios se concentra por debajo de los 40 minutos, existe una cola de usuarios atípicos que se extiende hasta los <strong class="text-slate-200">155 minutos</strong>.
                                 </p>
@@ -190,7 +190,7 @@
 
                             <!-- Bloque 2: Las Edades Neutrales -->
                             <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
-                                <img src="hist_age.png" alt="Distribución de Edades por Plan" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
+                                <img src="./assets/hist_age.png" alt="Distribución de Edades por Plan" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
                                 <p class="text-xs text-slate-400 text-center">
                                     <strong class="text-blue-400">Distribución Uniforme / Neutral:</strong> La edad de los usuarios mantiene un comportamiento altamente simétrico y estable entre los 18 y los 80 años para ambos planes, evidenciando un mercado objetivo demográficamente muy balanceado.
                                 </p>
@@ -201,11 +201,11 @@
                         <!-- Fila secundaria para Llamadas y Mensajes -->
                         <div class="grid md:grid-cols-2 gap-6 mt-6">
                             <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
-                                <img src="hist_cant_calls.png" alt="Cantidad de Llamadas" class="rounded-lg max-w-full h-auto border border-slate-800 mb-2">
+                                <img src="./assets/hist_cant_calls.png" alt="Cantidad de Llamadas" class="rounded-lg max-w-full h-auto border border-slate-800 mb-2">
                                 <span class="text-xs text-slate-400 text-center">Distribución de cantidad de llamadas (Comportamiento centrado entre 2 y 6 llamadas).</span>
                             </div>
                             <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
-                                <img src="hist_cant_mensages.png" alt="Cantidad de Mensajes" class="rounded-lg max-w-full h-auto border border-slate-800 mb-2">
+                                <img src="./assets/hist_cant_mensages.png" alt="Cantidad de Mensajes" class="rounded-lg max-w-full h-auto border border-slate-800 mb-2">
                                 <span class="text-xs text-slate-400 text-center">Distribución de cantidad de mensajes (Comportamiento centrado entre 2 y 8 mensajes).</span>
                             </div>
                         </div>
@@ -264,7 +264,7 @@
                             
                             <!-- Histograma -->
                             <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
-                                <img src="hist_city_gdp_capita.png" alt="Distribución del PIB per cápita" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
+                                <img src="./assets/hist_city_gdp_capita.png" alt="Distribución del PIB per cápita" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
                                 <p class="text-xs text-slate-400 text-center">
                                     <strong class="text-blue-400">Histograma:</strong> Revela una distribución con sesgo positivo en ambas variables. La mayoría de las ciudades se agrupan en un rango de ingresos medios (8k - 15k USD) y congestión moderada.
                                 </p>
@@ -272,7 +272,7 @@
 
                             <!-- Boxplot -->
                             <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 flex flex-col items-center">
-                                <img src="boxplot_jamsDelay.png" alt="Boxplot de Jams Delay" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
+                                <img src="./assets/boxplot_jamsDelay.png" alt="Boxplot de Jams Delay" class="rounded-lg max-w-full h-auto border border-slate-800 mb-3">
                                 <p class="text-xs text-slate-400 text-center">
                                     <strong class="text-rose-400">Boxplot de jams_delay:</strong> Muestra una caja compacta y una mediana baja cercana al origen. Confirma que la mayoría de las urbes tienen tráfico similar, pero destaca a CDMX como un outlier aislado.
                                 </p>
